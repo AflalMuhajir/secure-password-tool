@@ -18,3 +18,29 @@ A lightweight, pure C command-line tool for generating strong passwords, analyzi
 - Clean and educational codebase — great for learning secure coding
 
 ## Screenshots
+
+## Building
+
+### Requirements
+- GCC or Clang
+- Make (optional)
+
+### Linux / macOS
+```bash
+make
+./pass_tool
+
+gcc -o pass_tool.exe src/main.c src/aes.c -O2 -Wall -lm -lbcrypt
+
+secure-password-tool/
+├── src/
+│   ├── main.c          # Main program
+│   ├── aes.c           # Tiny AES implementation
+│   └── aes.h
+├── .gitignore
+├── LICENSE
+├── Makefile
+├── README.md
+└── SECURITY.md
+
+
