@@ -43,4 +43,12 @@ secure-password-tool/
 ├── README.md
 └── SECURITY.md
 
+License
+This project is licensed under the MIT License — see the LICENSE [blocked] file for details
+
+Author
+Muhammadh Aflal
+
+Junior Cybersecurity Professional | AppSec & Secure Software Development
+GitHub: AflalMuhajir
 
